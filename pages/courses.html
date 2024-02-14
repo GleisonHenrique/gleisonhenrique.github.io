@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Movimento Ordenado</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/style/general.css'>
+    <link rel="stylesheet" href="/style/fonts-icones.css"> 
+    <link rel="stylesheet" href="/style/courses.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <script src="/scripts/fuctionSearch.js" defer></script>
+    <style>
+        body {
+            font-family: 'Open Sans';font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div id="div-anchor"></div>
+    <header>
+        <div id="logo"><a href="/index.html"><img class="header_content" src="/images/logo.png"></a></div>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Início</a></li>
+                <li><a href="main_notices.html">Notícias</a></li>
+                <li><a href="courses.html">Cursos</a></li>
+                <li><a href="information.html">Sobre o site</a></li>
+            </ul>
+        </nav>
+        <div class="box-busca">
+            <div class="search-box">
+                <input type="text" class="search-box-input" name="busca" placeholder="Faça sua pesquisa">
+                <button class="search-box-button">
+                    <i class="search-box-icone icon icon-search"></i>
+                </button>
+            </div><!-- Search -->
+        </div><!--Box Busca-->   
+    </header>
+    
+    <!--Faixa de divisão de conteúdos-->
+    <div id="courses-page-line-divider">
+        <div>
+            <i class="page-line-icone icon icon-leanpub"></i>
+            <h1>Cursos</h1>
+        </div>
+    </div>
+
+    <main>
+        <section class="courses-section">
+            <p>
+                Os arquivos estão organizados em playslits no Youtube e são uma recomendação desta página, para a orientação e disseminação de informações científicas.
+            </p>
+            <article id="courses-article">
+                <header>
+                    <div class="courses-filter-search">
+                        <label for="select">Filtro:</label>
+                        <select name="courses-flist" id="courses-flist" size="">
+                            <option value="none">--</option>
+                            <option value="course1">Eletronica</option>
+                            <option value="course2">Computação</option>
+                            <option value="course3">Option3</option>
+                            <option value="course4">Option4</option>
+                            <option value="course5">Option5</option>
+                            <option value="course6">Option6</option>
+                        </select>
+                        <button class="flist-box-button">Filtrar</button>
+                    </div>
+                    <div class="courses-filter-search">
+                        <div class="search-box courses-box">
+                            <form method="post" action="#">
+                                <input type="text" class="search-box-input" name="busca" placeholder="Pesquise o seu curso">
+                                <button class="search-box-button">
+                                    <i class="search-box-icone icon icon-search"></i>
+                                </button>
+                            </form>
+                        </div><!-- Search -->
+                    </div>
+                </header>
+                <figure id="courses-figure">
+                    <div class="courses-figure-div"> 
+                        <div class="courses-img-tag">
+                            <img src="/images/course-thumb-ciencia-todo-dia.png" alt="">
+                            <span class="courses-tag">Física</span>
+                        </div>
+                        <div class="courses-text-button">
+                            <h2>Título: Física básica</h2>
+                            <span>Duração: 4h </span>
+                            <span>ACESSAR</span>
+                        </div>
+                    </div>
+                    <div class="courses-figure-div">
+                        <div class="courses-img-tag">
+                            <img src="" alt="">
+                            <span class="courses-tag">tag</span>
+                        </div>
+                        <div class="courses-text-button">
+                            <h2>Título</h2>
+                            <span>Duração: </span>
+                            <span>ACESSAR</span>
+                        </div>
+                    </div>
+                    <div class="courses-figure-div">
+                        <div class="courses-img-tag">
+                            <img src="" alt="">
+                            <span class="courses-tag">tag</span>
+                        </div>
+                        <div class="courses-text-button">
+                            <h2>Título</h2>
+                            <span>Duração: </span>
+                            <span>ACESSAR</span>
+                        </div>
+                    </div>
+                    <div class="courses-figure-div">
+                        <div class="courses-img-tag">
+                            <img src="" alt="">
+                            <span class="courses-tag">tag</span>
+                        </div>
+                        <div class="courses-text-button">
+                            <h2>Título</h2>
+                            <span>Duração: </span>
+                            <span>ACESSAR</span>
+                        </div>
+                    </div>
+                    <div class="courses-figure-div">   
+                        <div class="courses-img-tag">
+                            <img src="" alt="">
+                            <span class="courses-tag">tag</span>
+                        </div>
+                        <div class="courses-text-button">
+                            <h2>Título</h2>
+                            <span>Duração: </span>
+                            <span>ACESSAR</span>
+                        </div>
+                    </div>
+                    <div class="courses-figure-div">
+                        <div class="courses-img-tag">
+                            <img src="" alt="">
+                            <span class="courses-tag">tag</span>
+                        </div>
+                        <div class="courses-text-button">
+                            <h2>Título</h2>
+                            <span>Duração: </span>
+                            <span>ACESSAR</span>
+                        </div>
+                    </div>
+                </figure>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div id="button-top">
+            <a href="#div-anchor"><i class="footer-box-icone icon icon-angle-up"></i></a>
+        </div>
+        <section>
+            <div id="info-footer">
+                <div id="copyright">&copy;2023 Meteoro tec LTDA</div>
+                <div id="help-terms">
+                    <P>AJUDA</P>
+                    <p>|</p>
+                    <P>TERMOS</P>
+                </div>
+        </section>    
+    </footer>
+</body>
+</html>

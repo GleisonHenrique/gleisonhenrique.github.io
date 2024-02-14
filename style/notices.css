@@ -1,0 +1,40 @@
+.page-change-bar{
+    padding: 0;
+    list-style: none;
+    margin: 40px auto 0;
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 2.6px 1px rgba(0, 0, 0, 0.144); 
+}
+
+.page-change-bar{
+    align-items: center;
+}
+
+.page-change-bar a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.532);
+    font-size: 12pt;
+}
+
+#main-notices-bar a{
+    color: #0c0296;
+}
+
+#notices-page-bar a{
+    color: #0c0296;
+}
+
+.page-change-bar a:hover{
+    color: #0c0296;
+}
+
+#page-line-height{
+    width: 1px;
+    height: 10px;
+    background-color: #41414171;
+}

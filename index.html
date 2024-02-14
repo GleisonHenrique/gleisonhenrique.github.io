@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movimento Ordenado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="/style/fonts-icones.css"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <script src="scripts/slide.js" defer></script>
+    <script src="scripts/fuctionSearch.js" defer></script>
+    <style>
+        body {
+            font-family: 'Open Sans';font-size: 22px;
+        }
+    </style> 
+</head> 
+
+<body>
+    <div id="div-anchor"></div>
+    <header>
+        <div id="logo"><a href="index.html"><img class="header_content" src="images/logo.png"></a></div>
+        <nav>
+            <ul>
+                <li><a class="home" href="index.html">Início</a></li>
+                <li><a href="pages/main_notices.html">Notícias</a></li>
+                <li><a href="pages/courses.html">Cursos</a></li>
+                <li><a href=" pages/information.html">Sobre o site</a></li>
+            </ul>
+        </nav>
+        <div class="box-busca">
+            <div class="search-box">
+                <input type="text" class="search-box-input" name="busca" placeholder="Faça sua pesquisa">
+                <button class="search-box-button">
+                    <i class="search-box-icone icon icon-search"></i>
+                </button>
+            </div><!-- Search -->
+        </div><!--Box Busca-->       
+    </header>
+
+    <main class="primary">
+        <!--Faixa de divisão de conteúdos-->
+        <div id="index-page-line">
+            <div>
+                <i class="page-line-icone icon icon-leanpub"></i>
+                <h1>Notícias mais acessadas da semana</h1>
+            </div>
+        </div>
+        <nav class ="slider">
+            
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                
+
+            <div class="slide-box first">
+                <div id="slide-notices-intro">
+                    <a href="#">
+                        <div id="notice-intro">
+                            <span>-- Inovação técnologica --</span>
+                            <h1>Partícula demônio</h1>
+                            <span>10/08/2023</span>
+                            <p>Sem estarem procurando, físicos descobriram o demônio de Pines, um conjunto de elétrons que se comporta como uma onda sem massa e sem carga.</p>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/slide1.png" alt="">  
+            </div>
+
+            <div class="slide-box">
+                <div id="slide-notices-intro">
+                    <a href="#">
+                        <div id="notice-intro">
+                            <span>-- Inovação técnologica --</span>
+                            <h1>Cimento com carbono</h1>
+                            <span>01/08/2023</span>
+                            <p>Uma casa com uma fundação feita desse material poderia armazenar um dia inteiro de energia produzida por painéis solares ou turbinas de vento.</p>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/slide2.png" alt="">
+            </div>
+
+            <div class="slide-box">
+                <div id="slide-notices-intro">
+                    <a href="#">
+                        <div id="notice-intro">
+                            <span>-- Inovação técnologica --</span>
+                            <h1>Bateria de prótons</h1>
+                            <span>01/08/2023</span>
+                            <p>A bateria de prótons junta captação de energia solar, armazenamento de hidrogênio e célula de combustível, entregando eletricidade sob demanda.</p>
+                        </div>
+                    </a>
+                </div>
+                <img src="images/slide3.png" alt="">
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </nav>
+
+        <section>
+            <article>
+                <header class="header-article">
+                    <h1 id="last-notices">Últimas notícias</h1>
+                    <span id="line-height-article"></span>
+                </header>
+
+                <div class="div-notices">
+                    <a href="#1">
+                        <figure><img src="images/notice-intro-noticia-1.jpg" alt=""></figure>
+                        <div class="notice-intro">
+                            <span>Inovação técnologica</span>
+                            <h2 id="title-notices">Devemos programar uma alma humana na inteligência artificial, propõe pesquisadora</h2>
+                            <p id="date-notices">11/08/2023</p>
+                            <p id="resume-notices">
+                                A sociedade moderna já depende intrinsecamente dos sistemas automatizados e, cada vez mais, da inteligência artificial. Essas ferramentas já estão incorporadas em nossas rotinas diárias e não mostram sinais de desaceleração - na verdade, o uso da assistência robótica e automatizada é cada vez maior.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="div-notices">
+                    <a href="#1">
+                        <figure><img src="images/notice-intro-noticia-2.jpg" alt=""></figure>
+                        <div class="notice-intro">
+                            <span>Inovação técnologica</span>
+                            <h2 id="title-notices">Caneta comum com tinta especial desenha LEDs totalmente funcionais</h2>
+                            <p id="date-notices">10/08/2023</p>
+                            <p id="resume-notices">
+                                Uma simples caneta esferográfica consegue "escrever LEDs" personalizados diretamente no papel: Você desenha e, em vez de ter algo escrito, você tem um LED totalmente funcional, pronto para ser aceso.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="div-notices">
+                    <a href="#1">
+                        <figure><img src="images/notice-intro-noticia-3.jpg" alt=""></figure>
+                        <div class="notice-intro">
+                            <span>Inovação técnologica</span>
+                            <h2 id="title-notices">Descoberta partícula demônio que pode explicar supercondutividade</h2>
+                            <p id="date-notices">10/08/2023</p>
+                            <p id="resume-notices">
+                                Em 1956, o físico teórico David Pines [1924-2018] previu que os elétrons em um sólido poderiam fazer algo estranho: Embora eles normalmente tenham uma massa e uma carga elétrica, em determinadas situações eles poderiam se combinar, formando uma partícula composta sem massa, neutra e que não interage com a luz.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="div-notices">
+                    <a href="#1">
+                        <figure><img src="images/notice-intro-noticia-4.jpg" alt=""></figure>
+                        <div class="notice-intro">
+                            <span>Inovação técnologica</span>
+                            <h2 id="title-notices">O som pode ser transmitido através do vácuo</h2>
+                            <p id="date-notices">10/08/2023</p>
+                            <p id="resume-notices">
+                                Há três anos, um experimento mudou para sempre os livros didáticos ao mostrar que o calor pode se mover pelo vácuo, atualizando um saber científico secular. Agora, outra equipe está exigindo uma nova revisão dos livros de física ao demonstrar que o som também pode ser transmitido através do vácuo.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="div-notices">
+                    <a href="#1">
+                        <figure><img src="images/notice-intro-noticia-5.jpg" alt=""></figure>
+                        <div class="notice-intro">
+                            <span>Inovação técnologica</span>
+                            <h2 id="title-notices">Baterias de zinco guardam eletricidade e produzem hidrogênio</h2>
+                            <p id="date-notices">09/08/2023</p>
+                            <p id="resume-notices">
+                                Engenheiros alemães estão desenvolvendo baterias de zinco que não apenas armazenam energia elétrica, mas também produzem hidrogênio.
+                                Os primeiros testes indicam uma eficiência de 50% no armazenamento de eletricidade e 80% na produção de hidrogênio, com uma expectativa de vida útil estimada em dez anos.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="more-notices">
+                    <a href="pages/main_notices.html">Mais notícias...</a></li>
+                </div>
+            </article>
+
+            <aside>
+                <header class="header-aside">
+                    <h1 id="popular-notices">Populares</h1>
+                    <span id="line-height-aside"></span>
+                </header>
+
+                <div class="container-aside">
+                    <a href="#2">
+                        <figure><img src="images/notice-intro-aside-3.jpg" alt=""></figure>
+                        <div class="notice-intro-aside">
+                            <h2 id="title-notices-aside">Descoberta partícula demônio que pode explicar supercondutividade</h2>
+                            <p id="resume-notices-aside">
+                                Em 1956, o físico teórico David Pines [1924-2018] previu que os elétrons em um sólido poderiam...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container-aside">
+                    <a href="#2">
+                        <figure><img src="images/notice-intro-aside-2.jpg" alt=""></figure>
+                        <div class="notice-intro-aside">
+                            <h2 id="title-notices-aside">Caneta comum com tinta especial desenha LEDs totalmente funcionais</h2>
+                            <p id="resume-notices-aside">
+                                Uma simples caneta esferográfica consegue "escrever LEDs" personalizados diretamente no...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container-aside">
+                    <a href="#2">
+                        <figure><img src="images/notice-intro-aside-4.jpg" alt=""></figure>
+                        <div class="notice-intro-aside">
+                            <h2 id="title-notices-aside">O som pode ser transmitido através do vácuo</h2>
+                            <p id="resume-notices-aside">
+                                Há três anos, um experimento mudou para sempre os livros didáticos ao mostrar que o calor pode se mover pelo...
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div id="button-top">
+            <a href="#div-anchor"><i class="footer-box-icone icon icon-angle-up"></i></a>
+        </div>
+        <section>
+            <div id="info-footer">
+                <div id="copyright">&copy;2023 Meteoro tec LTDA</div>
+                <div id="help-terms">
+                    <P>AJUDA</P>
+                    <p>|</p>
+                    <P>TERMOS</P>
+                </div>
+        </section>    
+    </footer>
+</body>
+</html>
